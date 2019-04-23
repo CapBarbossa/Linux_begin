@@ -1,0 +1,5 @@
+1. 安装屏幕录制软件
+  sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+  sudo apt-get update
+  sudo apt-get install simplescreenrecorder
+2. 
