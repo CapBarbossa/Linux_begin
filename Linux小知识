@@ -1,3 +1,5 @@
 CentOS操作系统的版本号信息存放在:
   /etc/os-release /etc/redhat-release
 直接查看CentOS系统版本号: $(. /etc/os-release;echo $ID$VERSION_ID)
+系统所有可用的shell信息: /etc/shells
+
