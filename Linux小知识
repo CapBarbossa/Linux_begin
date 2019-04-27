@@ -1,0 +1,3 @@
+CentOS操作系统的版本号信息存放在:
+  /etc/os-release /etc/redhat-release
+
