@@ -3,3 +3,7 @@ CentOS操作系统的版本号信息存放在:
 直接查看CentOS系统版本号: $(. /etc/os-release;echo $ID$VERSION_ID)
 系统所有可用的shell信息: /etc/shells
 
+Ubuntu安装新的字体：
+  1.Copy a.ttf to /usr/share/fonts/custom文件夹下 没有则创建此custom目录；注意这个目录存放ttf文件的目录很特别，并非直觉的/etc/fonts, which is for font configuration.
+  2.sudo mkfontscale
+  3.取巧式地查看当前系统所有可用的字体-借助于ImageMagick工具：convert -list font
