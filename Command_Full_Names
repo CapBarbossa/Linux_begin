@@ -16,6 +16,7 @@ lsmod：List module 列表模块
 alias :Create your own name for a command
 bash :GNU Bourne-Again Shell  linux内核 
 dash :the Debian Almquist Shell
+hash : bash终端使用的查找表 可快速查询命令所在的路径[hash -l;hash;hash -p abs_path alias;hash -r;hash -d hello]
 grep:global regular expression print
 httpd :Start Apache
 ip: netns = Network NameSpace
