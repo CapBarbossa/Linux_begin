@@ -51,7 +51,14 @@ crop_fragment(){
 	}
 }
 	
-
+docker-opencv(){
+	(($#==1)) && vol=$1 || vol=/tmp:/tmp
+	docker-compose -f ~/docker-compose.yaml \
+				run -v $(pwd)/..:$(pwd)/.. \
+				-v /tmp:/tmp \
+				-v $1 \
+				-u 1000 -w $(pwd) opencv
+}
 
 
 
