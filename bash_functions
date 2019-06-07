@@ -56,7 +56,7 @@ docker-opencv(){
 	docker-compose -f ~/docker-compose.yaml \
 				run -v $(pwd)/..:$(pwd)/.. \
 				-v /tmp:/tmp \
-				-v $1 \
+				-v $vol \
 				-u 1000 -w $(pwd) opencv
 }
 
