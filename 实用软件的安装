@@ -2,4 +2,19 @@
   sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
   sudo apt-get update
   sudo apt-get install simplescreenrecorder
-2. 
+2. Google字体的安装器
+  sudo add-apt-repository ppa:alexlarsson/flatpak
+  sudo apt-get update
+  sudo apt-get install flatpak
+  flatpak --version
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  flatpak search fontfinder
+  flatpak install flathub io.github.mmstick.FontFinder   #这里的语法结构为：flatpak install flathub [Application_ID]
+  flatpak run io.github.mmstick.FontFinder
+  
+  
+  
+  
+  
+  
+  
