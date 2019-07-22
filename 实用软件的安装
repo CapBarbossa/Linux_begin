@@ -23,7 +23,13 @@
     如果安装完成后，虚拟机报错0x0000005c，关闭虚拟机的3D加速功能（取消勾选）
     开机启动图形化窗口
     ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
-  
+4. xsnow 桌面下雪
+  apt-get install xsnow
+  安装过程完毕！
+  Type1:xsnow
+  Type2:xsnow -bg -blue -sc snow
+  Type3:xsnow -snowflakes 10000 -delay 0
+  Type4:xsnow -notrees -nosanta
   
   
   
