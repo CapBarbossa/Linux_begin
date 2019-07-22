@@ -11,6 +11,18 @@
   flatpak search fontfinder
   flatpak install flathub io.github.mmstick.FontFinder   #这里的语法结构为：flatpak install flathub [Application_ID]
   flatpak run io.github.mmstick.FontFinder
+3. 从黑屏->图形化界面
+  yum groupinstall "X Window System"
+  查看可以安装的GUI软件(gnome|kde)
+  yum grouplist
+  yum groupinstall "GNOME Desktop" "Graphical Administration Tools"
+  到此，安装过程已结束。
+  postprocess:
+    startx进入图形页面
+    如果安装完成后，虚拟机无法打开，我们需要调整虚拟机分配内存大小（注意不是磁盘大小），1024M基本够用。
+    如果安装完成后，虚拟机报错0x0000005c，关闭虚拟机的3D加速功能（取消勾选）
+    开机启动图形化窗口
+    ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
   
   
   
