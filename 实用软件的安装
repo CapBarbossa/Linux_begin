@@ -30,7 +30,12 @@
   Type2:xsnow -bg -blue -sc snow
   Type3:xsnow -snowflakes 10000 -delay 0
   Type4:xsnow -notrees -nosanta
-  
+5. youtube-dl 下载视频
+  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  sudo chmod a+rx /usr/local/bin/youtube-dl
+  用法示例: 
+      youtube-dl  --proxy socks5://127.0.0.1:1080/ --verbose 'https://www.youtube.com/watch?v=UQtltNZ_pjs'
+  Note: 视频地址使用单引号括起来.
   
   
   
