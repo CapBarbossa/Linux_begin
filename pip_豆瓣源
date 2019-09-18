@@ -1,0 +1,3 @@
+sudo pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+sudo pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+sudo pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
