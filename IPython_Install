@@ -1,0 +1,5 @@
+aptitude install ipython3
+aptitude install ipython3-qtconsole -o APT::Get::Fix-Missing=true
+
+# Launch
+ipython3 qtconsole --pylab=inline
