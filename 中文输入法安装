@@ -1,0 +1,8 @@
+比较可靠的谷歌输入法：
+  sudo apt-get install fcitx-googlepinyin 
+  
+搜狗输入法：
+  # 安装搜狗输入法
+  sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
+  sudo apt --fix-broken install
+  sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb  # 重新安装一次
