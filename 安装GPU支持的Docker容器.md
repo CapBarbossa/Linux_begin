@@ -1,10 +1,3 @@
-<p align="center">
-    <img src="http://eriklindernoren.se/images/acgan.gif" width="640"\>
-</p>
-<p align="center">
-    <img src="GPU_CUDA.png"\>
-</p>
-
 ##GPU驱动的概念
   `GPU`驱动使得GPU这个硬件设备可以被计算机发现,并使用,跟声卡驱动,网卡驱动无异;
 ##CUDA
@@ -13,3 +6,8 @@
 这些东西是比较摄人心魄的,因为九个月前折腾的时候没有明白,所以一直有阴影.现在搞清楚了,就好了.
 Tensorflow官方提供的镜像自带nvidia-smi工具,所以如果要从零安装深度学习环境,最好从这里开始.
 注意,要利用`GPU`,还需要安装[nvidia-docker](网址 https://github.com/NVIDIA/nvidia-docker).
+
+
+
+
+
