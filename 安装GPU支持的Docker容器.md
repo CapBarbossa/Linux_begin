@@ -1,6 +1,9 @@
 <p align="center">
     <img src="http://eriklindernoren.se/images/acgan.gif" width="640"\>
 </p>
+<p align="center">
+    <img src="GPU_CUDA.png"\>
+</p>
 ##GPU驱动的概念
   `GPU`驱动使得GPU这个硬件设备可以被计算机发现,并使用,跟声卡驱动,网卡驱动无异;
 ##CUDA
