@@ -3,7 +3,7 @@
   + fortune
 安装第一个
   ```shell
-  $ git clone https://github.com/mubaris/motivate.git
+  $ git clone https://github.com/mubaris/motivate.git   # 注意: 这个文件夹是需要一直保存在硬盘上的.因此,最好克隆至LocalInstall目录内,统一管理
   $ cd motivate/motivate
   $ sudo ./install.sh
   $ source ~/.bashrc
