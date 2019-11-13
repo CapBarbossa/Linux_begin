@@ -1,0 +1,25 @@
+需要用到两个东西: 
+  + `https://github.com/i-am-king-of-world/motivate.git`
+  + fortune
+安装第一个
+  ```shell
+  $ git clone https://github.com/mubaris/motivate.git
+  $ cd motivate/motivate
+  $ sudo ./install.sh
+  $ source ~/.bashrc
+  ```
+安装第二个
+  ```shell
+  apt-get install fortune
+  ```
+
+配置`/home/bro/.bashrc`文件
+在最后加上一条语句:
+`((RANDOM & 1 == 0)) && motivate || fortune`
+
+
+
+
+
+
+
