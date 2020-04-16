@@ -2,6 +2,7 @@
 git clone -b master --branch 2.0 https://github.com/tmux/tmux.git tmux-2.0
 cd tmux-2.0
 sh autogen.sh
+yum install -y libevent-devel
 ./configure && make
 make install
 
