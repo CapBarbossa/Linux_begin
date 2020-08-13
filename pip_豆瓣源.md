@@ -3,9 +3,9 @@ pip命令的配置文件为：
   如果没有这个目录和这个文件，那就创建一个。不要怀疑自己的力量，Linux本身所有的东西就是文件，创建一个文件就是会管用！然后在这个文件中填进如下内容
   ```
   [global]
-  index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+  index-url = https://pypi.douban.com/simple
   [install]
-  trusted-host = https://pypi.tuna.tsinghua.edu.cn
+  trusted-host = https://pypi.douban.com
   ```
   
   
