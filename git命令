@@ -1,0 +1,6 @@
+# 出自一个onnxruntime的dockerfile
+git clone --single-branch --branch ${ONNXRUNTIME_SERVER_BRANCH} --recursive ${ONNXRUNTIME_REPO} onnxruntime
+
+
+
+
