@@ -17,6 +17,18 @@ Tensorflow官方提供的镜像自带nvidia-smi工具,所以如果要从零安�
 注意,要利用`GPU`,还需要安装[nvidia-docker](网址 https://github.com/NVIDIA/nvidia-docker).
 
 
+## 以上内容不知是否可行, 以下内容是2020.9.8刚出炉的, 可行方案.
+```
+思路逻辑是: 安装完docker以后, 通过添加nvidia-docker的源, 安装nvidia-docker2. 但做好慢的准备: 通过源本来就很慢
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.repo | sudo tee /etc/yum.repos.d/nvidia-docker.repo
+yum install -y nvidia-docker2
+sudo systemctl restart docker
+#测试安装成功
+docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+```
+
+
 
 
 
